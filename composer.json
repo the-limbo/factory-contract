@@ -1,0 +1,32 @@
+{
+    "name": "the-limbo/container-contracts",
+    "type": "library",
+    "description": "Generic abstractions for create factory.",
+    "keywords": [
+        "the-limbo",
+        "contracts",
+        "factory"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dr0n1k",
+            "email": "a.dronov4job@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Limbo\\Contracts\\Factory\\": "src"
+        }
+    },
+    "suggest": {
+        "the-limbo/factory-contracts-implementation": ""
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}

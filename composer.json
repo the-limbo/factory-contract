@@ -1,5 +1,5 @@
 {
-    "name": "the-limbo/container-contracts",
+    "name": "the-limbo/factory-contracts",
     "type": "library",
     "description": "Generic abstractions for create factory.",
     "keywords": [

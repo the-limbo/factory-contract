@@ -14,14 +14,14 @@ namespace Limbo\Contracts\Factory;
  * Interface FactoryContract
  *
  * @package   Limbo\Contracts\Factory
- * @author    dr0n1k <a.dronov4job@yandex.ru>
- * @copyright TheLimbo 2022
+ * @author    dr0n1k  <a.dronov4job@yandex.ru>
  * @license   MIT
+ * @copyright TheLimbo (c) 2022
  */
 interface FactoryContract
 {
     /**
-     * Create factory instance.
+     * Create instance of factory.
      *
      * @return static
      */

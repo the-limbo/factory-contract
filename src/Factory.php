@@ -15,18 +15,11 @@ namespace Limbo\Contracts\Factory;
  *
  * @package   Limbo\Contracts\Factory
  * @author    dr0n1k <a.dronov4job@yandex.ru>
- * @copyright TheLimbo 2022
  * @license   MIT
+ * @copyright TheLimbo (c) 2022
  */
 abstract class Factory implements FactoryContract
 {
-    /**
-     * Constructor.
-     */
-    private function __construct()
-    {
-    }
-
     /**
      * @inheritDoc
      */
